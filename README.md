@@ -8,3 +8,4 @@
     }
   }
 }
+curl -iX POST --data "@curl.json" https://api.github.com/gists

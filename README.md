@@ -9,3 +9,4 @@
   }
 }
 curl -iX POST --data "@curl.json" https://api.github.com/gists
+curl --user "YOUR_USERNAME:$PAT" --data @curl.json https://api.github.com/gists 
